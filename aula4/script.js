@@ -28,3 +28,4 @@ let isMember = true;
 
 let shipping = isMember ? 2 : 10;
 
+let adulto = (idade >= 18 ? "Sim": "Não");
