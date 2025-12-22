@@ -21,3 +21,10 @@ if (idade < 18){
 }else{
     console.log("Você é um idoso");
 }
+
+//condicional ternaria
+
+let isMember = true;
+
+let shipping = isMember ? 2 : 10;
+
