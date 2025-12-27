@@ -8,3 +8,13 @@ console.log(ingredientes.length);
 
 ingredientes.push('sal');
 console.log(ingredientes);
+
+/* removendo o último item do array  que seria o SAL*/
+
+ingredientes.pop()
+
+console.log(ingredientes)
+
+/* Removendo o primeiro item do array (ovo) */
+
+console.log(ingredientes.shift());
