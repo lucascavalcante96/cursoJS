@@ -24,3 +24,9 @@ console.log(fruits.join('-'));
 
 /* Verificando o tamanho do array */
 console.log(fruits.length)
+
+//modificando o ultimo item do array
+
+fruits[fruits.length - 1] = 'jabuticaba';
+
+console.log(fruits);
