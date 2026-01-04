@@ -12,3 +12,9 @@ document.getElementById('teste');
 document.getElementsByClassName('container');
 
 /* no comando acima peguei todos os elementos que tem a class container */
+
+document.querySelector('.botao');
+/*retorna o primeiro elemento da class botão */
+
+document.querySelectorAll('#teste2 ul li');
+/* retorna todos os elementos do id teste2 que são listas */
