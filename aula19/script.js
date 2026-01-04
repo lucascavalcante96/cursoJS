@@ -18,3 +18,10 @@ document.querySelector('.botao');
 
 document.querySelectorAll('#teste2 ul li');
 /* retorna todos os elementos do id teste2 que são listas */
+
+function cliclou(){
+    console.log('Cliclou no botão')
+}
+
+let botao = document.querySelector('.botao');
+botao.addEventListener("click", cliclou);
