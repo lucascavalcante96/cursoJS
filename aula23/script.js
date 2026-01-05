@@ -8,10 +8,12 @@ function segurou(e){
     console.log(e.key);
 }
 
-function soltou(){
-    console.log('soltou');
+function soltou(s){
+    console.log(s.shiftKey);
+    console.log(s.ctrlKey);
+    console.log(s.altKey);
 }
 const input = document.querySelector("input");
-input.addEventListener("keydown", apertou);
-input.addEventListener("keypress", segurou);
+/*input.addEventListener("keydown", apertou);
+input.addEventListener("keypress", segurou);*/
 input.addEventListener("keyup", soltou);
